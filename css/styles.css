@@ -176,6 +176,7 @@ main {}
 
 
 .populars {
+   
     padding: 100px;
 }
 
@@ -194,6 +195,7 @@ main {}
     margin-top: 20px;
 }
 .type-list {
+    position: relative;
     display: flex;
     gap: 25px; 
 }
@@ -218,8 +220,8 @@ main {}
     position: relative;
 } */
 .type-picture{
-    opacity: 0.6;
     position: absolute;
+    opacity: 0.6;
     left: 0;
     top: 0;
     width: 33.3%;
@@ -242,12 +244,12 @@ main {}
     align-items: center;
     text-align: center;
 }
- .ellipse{
+ /* .ellipse{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: rgb(200, 204, 211);    
-} 
+}  */
 /* .ellipse{
     position: relative;
     width: 30px;
